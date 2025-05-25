@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Check</title>
+<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<style>
+   body{
+    background: #11113A;
+    color: white;
+    align-items: center;
+}
+    .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(50vh - 120px); /* Adjusted for header height */
+    text-align: center;
+}
+
+.content {
+    max-width: 600px;
+    padding: 7px;
+}
+
+.heading {
+    font-size: 2rem;
+    color: #ffff;
+}
+
+.heading span {
+    color: #e91e63;
+    display: block;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+</style>
+<body>
+  <header>
+    <img class="logo" src="assets/logo.png" alt="logo">
+    <nav>
+      <ul class="navlinks">
+        <li><a href="index1.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="php/logout.php"><button>Logout</button></a>
+    <a class="cta" href="cart.php"><button>Cart</button></a>
+  </header>
+  
+  <div class="main-content">
+    <div class="content">
+        <h1 class="heading"><span>Order placed!</span> Thank you for using us!!</h1>
+    </div>
+  </div>
+
+</body>
+</html>

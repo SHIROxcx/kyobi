@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+    <div class="background-image2"></div>
+    <div class="container">
+        <header>
+            <img class="logo" src="assets/logo.png" alt="logo">
+            <nav>
+              <ul class="navlinks">
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+              </ul>
+            </nav>
+            <a class="cta" href="php/logout.php"><button>Logout</button></a>
+            <a class="cta" href="cart.php"><button>Cart</button></a>
+          </header>
+          <form class="contact-container" action="php/form.php" method="POST">
+            <h1>Contact Us</h1>
+            <div class="input-name">
+                <input type="text" class="first-name" name="fName" placeholder="First Name">
+                <input type="text" class="last-name" name="lName" placeholder="Last Name">
+            </div>
+            <div class="input-email">
+                <input type="email" class="email" name="email" placeholder="Email">
+            </div>
+            <div class="input-subject">
+                <input type="text" class="subject" name="subject" placeholder="Subject">
+            </div>
+            <div class="input-message">
+                <input type="text" class="message" name="message" placeholder="Message">
+            </div>
+            <div class="action-btn">
+                    <button type="submit" class="btn btn-submit">Submit</button>
+            </div>
+            <div class="or-text">Or contact us on social media</div>
+            <div class="social-contact">
+                <div class="social">
+                    <div class="handle">@online_shop</div>
+                    <div class="social-action">
+                        <span>Instagram</span>
+                        <span class="material-symbols-rounded">arrow_right_alt</span>
+                    </div>
+                </div>
+                <div class="social">
+                    <div class="handle">@kyobigames.com</div>
+                    <div class="social-action">
+                        <span>Twitter</span>
+                        <span class="material-symbols-rounded">arrow_right_alt</span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+:root{
+    --green:#e91e63;
+}
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+body{
+    background: #11113A;
+    color: white;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    padding: 30px 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    z-index: 1; 
+  }
+
+  .logo {
+    cursor: pointer;
+    margin-right: auto;
+  }
+
+  .navlinks {
+    list-style: none;
+  }
+
+  .navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .navlinks li a {
+    transition: all 0.3s ease 0s;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+
+  .navlinks li a:hover {
+    color: #e91e63;
+  }
+
+  button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #e91e63; /* Pink color */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white; /* Button text color */
+    font-size: 18px; /* Increase text size */
+  }
+
+  button:hover {
+    background-color: #3b1220; /* Darker pink color on hover */
+  }
+
+
+  .container {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container form {
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .box {
+    width: 750px;
+    align-items: center;
+  }
+  .container table {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .link-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  input, button, .navlinks a, .social, .handle, .or-text {
+    color: white;
+}
+
+.checkout-container { 
+  display: flex; 
+  justify-content: flex-end; 
+  align-items: center; 
+  margin-top: 20px; 
+}
+.total-price {
+  margin-right: 20px;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+
